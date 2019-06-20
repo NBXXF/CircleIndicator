@@ -1,13 +1,12 @@
 apply plugin: 'com.android.library'
-
-version = "2.1.2"
+apply plugin: 'com.github.dcendents.android-maven'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 27
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 28
+        targetSdkVersion 27
         versionCode 212
         versionName version
     }
@@ -25,12 +24,6 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.annotation:annotation:1.1.0-rc01'
-    compileOnly 'androidx.viewpager:viewpager:1.0.0'
-    compileOnly 'androidx.recyclerview:recyclerview:1.0.0'
-    compileOnly 'com.google.android.material:material:1.0.0'
-    compileOnly 'androidx.viewpager2:viewpager2:1.0.0-alpha04'
+    compileOnly 'com.android.support:recyclerview-v7:27.0.0'
+    compileOnly 'com.android.support:support-v4:27.0.0'
 }
-
-//apply from: "upload-jcenter.gradle"
-//apply from: "upload-maven.gradle"

@@ -1,3 +1,7 @@
+# !!!!! use android.support.v4.view.ViewPager
+# !!!!! use android.support.v7.widget.RecyclerView
+
+
 CircleIndicator
 ===============
 A lightweight indicator like in nexus 5 launcher 
@@ -10,19 +14,6 @@ Gradle
 ------------
 
 
-###### AndroidX
-```groovy
-dependencies {
-    implementation 'me.relex:circleindicator:2.1.2'
-}
-```
-
-###### Android Support Library
-```groovy
-dependencies {
-    implementation 'me.relex:circleindicator:1.2.2'
-}
-```
 
 
 Usage

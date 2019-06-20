@@ -8,7 +8,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager2.widget.ViewPager2;
-import me.relex.circleindicator.CircleIndicator3;
+
 import me.relex.circleindicator.sample.R;
 import me.relex.circleindicator.sample.SampleRecyclerAdapter;
 
